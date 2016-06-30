@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Tic Tac Toe: Minimax Algorithm in JavaScript</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="A game of Tic Tac Toe against an unbeatable AI, using Minimax algorithm">
+  <meta name="author" content="Saumitra Bose">
+</head>
+
+<div class="container">
+  <div class="boxContain">
+    <div class="box" id="val-0">
+      <div class="data" id="childval-0"></div>
+    </div>
+    <div class="box" id="val-1">
+      <div class="data" id="childval-1"></div>
+    </div>
+    <div class="box" id="val-2">
+      <div class="data" id="childval-2"></div>
+    </div>
+    <div class="box" id="val-3">
+      <div class="data" id="childval-3"></div>
+    </div>
+    <div class="box" id="val-4">
+      <div class="data" id="childval-4"></div>
+    </div>
+    <div class="box" id="val-5">
+      <div class="data" id="childval-5"></div>
+    </div>
+    <div class="box" id="val-6">
+      <div class="data" id="childval-6"></div>
+    </div>
+    <div class="box" id="val-7">
+      <div class="data" id="childval-7"></div>
+    </div>
+    <div class="box" id="val-8">
+      <div class="data" id="childval-8"></div>
+    </div>
+  </div>
+  <div class="marks">
+    <button id="butt-o" class="butt"> <i class="fa fa-circle-o"></i></button>
+    <div class="text">
+      <div class="textContain">OPTIONS</div>
+    </div>
+    <button id="butt-x" class="butt"><i class="fa fa-times"></i></button>
+  </div>
+  <div class="options">
+    <div class="mode gamemode">
+      <div class="modeText">DIFFICULTY</div>
+      <div class="modeChoice linedown">HARD</div>
+    </div>
+    <div class="mode statmode">
+      <div class="modeText statText">WINS</div>
+      <div class="statNum win">0</div>
+    </div>
+    <div class="mode statmode">
+      <div class="modeText statText">LOSSES</div>
+      <div class="statNum loss">0</div>
+    </div>
+    <div class="mode statmode">
+      <div class="modeText statText">TIES</div>
+      <div class="statNum tie">0</div>
+    </div>
+  </div>
+</div>
+<div class="startBox">
+  <button id="start-x" class="butt startbutt"><i id="icon-x" class="fa fa-times"></i></button>
+  <div class="askText"> 
+    <div class="textVal">OR</div>
+  </div>
+  <button id="start-o" class="butt startbutt"><i id="icon-o" class="fa fa-circle-o"></i></button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/d8b596c970.js"></script>
+<script src='TicScript.js'></script>
+</html>
